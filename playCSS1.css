@@ -1,0 +1,80 @@
+.upperLabel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    background-color: rgb(107, 133, 133);
+}
+
+.formattedParagh {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+.imgP {
+    width: 50px;
+    /* Set the width as needed */
+    height: 50px;
+    /* Set the height as needed */
+    border-radius: 50%;
+    /* Make it a circle */
+    float: left;
+    margin-right: 10px;
+}
+
+.loremParagh1 {
+    color: brown;
+    text-align: justify;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: fit-content;
+    float: left;
+    margin-right: 10px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.loremParagh2 {
+    width: 50%;
+    margin-left: 35%;
+    color: blue;
+    background-color: chartreuse;
+    text-align: justify;
+}
+
+.ScrollStyle {
+    width: fit-content;
+    max-height: 100px;
+    overflow-y: scroll;
+    margin-left: 90%;
+    margin-top: -180px;
+    /* float: right; */
+}
+
+.divH1 {
+    width: auto;
+    text-align: justify;
+    background-color: rgb(103, 103, 226);
+    margin-top: 200px;
+}
+
+.ContactBy {
+    background-color: rgb(255, 255, 255);
+    margin-left: -20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    line-height: 15px;
+}
