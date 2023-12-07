@@ -1,0 +1,137 @@
+.upperClicks {
+    background-color: rgba(32, 33, 36, 1);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 50px;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid #f8f8f8;
+
+}
+
+.parentContainer {
+    background-color: rgba(32, 33, 36, 1);
+}
+
+.Gmail,
+.Images,
+.MatrixDots,
+.ProfileImage {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    color: white;
+}
+
+.containerGoogle {
+    margin-top: -200px;
+    font-size: 200px;
+    color: white;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+
+.containerSearch {
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    margin-top: -300px;
+}
+
+
+.containerGSButton {
+    /* font-size: 50px;
+    color: #bdc1c6;
+    text-align: center;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px; */
+    background-color: #3951a0;
+    border: 2px solid #7e88a8;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin-left: 550px;
+    margin-right: 150px;
+}
+
+.containerIFLButton {
+    background-color: #3951a0;
+    border: 2px solid #7e88a8;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.containerButtonHolder {
+    margin-top: -200px;
+    margin-left: -550px;
+}
+
+.containerGSButton:hover {
+    background-color: rgb(111, 111, 41);
+}
+
+.containerIFLButton:hover {
+    background-color: rgb(111, 111, 41);
+}
+
+.containerLangages {
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+a {
+    color: yellow;
+    padding: 10px;
+}
+
+.containerBottom1 {
+    padding-left: 10px;
+    border-bottom: 2px solid #0d8beb;
+    border-top: 2px solid #0d8beb;
+    font-size: 15px;
+    color: #e8eaed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerBottom2 {
+    border-bottom: 2px solid #0d8beb;
+    font-size: 15px;
+    color: #e8eaed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left
+}
+
+.About,
+.Advertising,
+.Bussiness,
+.HowSearchWorks {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.HowSearchWorks {
+    padding-right: 1140px;
+    padding-bottom: 55px;
+}
+
+.Privacy,
+.Terms,
+.Settings {
+    color: #e8eaed;
+    padding-left: 15px;
+    padding-right: 10px;
+}
